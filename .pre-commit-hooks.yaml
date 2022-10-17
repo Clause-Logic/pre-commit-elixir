@@ -1,0 +1,10 @@
+- id: mix-credo
+  name: mix credo
+  description: Formats Elixir files with mix credo.
+  language: system
+  entry: mix credo --strict
+- id: mix-sobelow
+  name: mix sobelow
+  description: Elixir static security analysis with mix sobelow.
+  language: system
+  entry: mix sobelow
