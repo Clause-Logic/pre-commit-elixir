@@ -8,3 +8,8 @@
   description: Elixir static security analysis with mix sobelow.
   language: system
   entry: mix sobelow
+- id: mix-dialyzer
+  name: mix dialyzer
+  description: Elixir static type analysis with dialyzer.
+  language: system
+  entry: mix dialyzer
