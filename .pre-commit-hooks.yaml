@@ -13,3 +13,8 @@
   description: Elixir static type analysis with dialyzer.
   language: system
   entry: mix dialyzer
+- id: mix-check
+  name: mix check
+  description: Runs the mix check utility, running many standard Elixir tools in parallel
+  language: system
+  entry: mix check
