@@ -3,18 +3,16 @@
   description: Formats Elixir files with mix credo.
   language: system
   entry: mix credo --strict
-- id: mix-sobelow
-  name: mix sobelow
-  description: Elixir static security analysis with mix sobelow.
-  language: system
-  entry: mix sobelow
+  files: "^(.*).(ex|exs|heex)$"
 - id: mix-dialyzer
   name: mix dialyzer
   description: Elixir static type analysis with dialyzer.
   language: system
   entry: mix dialyzer
-- id: mix-check
-  name: mix check
-  description: Runs the mix check utility, running many standard Elixir tools in parallel
+  files: "^(.*).(ex|exs|heex)$"
+- id: mix-format
+  name: mix format
+  description: Formats Elixir files with mix format.
   language: system
-  entry: mix check
+  entry: mix format
+  files: "^(.*).(ex|exs|heex)$" 
